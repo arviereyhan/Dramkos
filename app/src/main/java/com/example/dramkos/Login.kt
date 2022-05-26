@@ -1,11 +1,11 @@
-package com.example.myapplication
+package com.example.dramkos
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 
-class tampilanlogin : AppCompatActivity() {
+class Login : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        setContentView(R.layout.activity_tampilanlogin)
+        setContentView(R.layout.activity_login)
     }
 }

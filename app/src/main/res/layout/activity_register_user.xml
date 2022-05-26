@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".RegisterUser">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="100dp"
+        android:layout_marginEnd="100dp"
+        android:layout_marginTop="64dp"
+        android:src="@drawable/vectorstroke"
+        android:gravity="center_horizontal|top"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="70dp"
+        android:layout_marginTop="200dp"
+        android:text="DRAMAKOS"
+        android:textColor="#2C7EF4"
+        android:textSize="47.06sp"
+        android:textStyle="bold"
+        android:gravity="center_horizontal|top"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/kamu_mendaftar_sebagai_apa"
+        android:textSize="15sp"
+        android:layout_centerHorizontal="true"
+        android:layout_alignParentStart="true"
+        android:textStyle="bold"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="260dp"
+        android:gravity="center_horizontal|top"/>
+
+    <com.google.android.material.button.MaterialButton
+        android:layout_width="200dp"
+        android:layout_height="50dp"
+        android:text="User"
+        android:textAllCaps="false"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="300dp"
+        android:src="@drawable/userr" />
+
+
+    <com.google.android.material.button.MaterialButton
+        android:layout_width="200dp"
+        android:layout_height="50dp"
+        android:textAllCaps="false"
+        android:text="Admin"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="210dp"
+        android:layout_marginTop="300dp"
+        android:src="@drawable/admintt1"
+        android:contentDescription="@string/todo" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="360dp"
+        android:gravity="center_horizontal|top">
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal|top">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"/>
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:background="@drawable/colominput"/>
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:background="@drawable/username"
+                android:layout_marginTop="60dp"/>
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:background="@drawable/passowrd"
+                android:layout_marginTop="120dp"/>
+
+            <com.google.android.material.button.MaterialButton
+                android:layout_width="390dp"
+                android:layout_height="50dp"
+                android:textAllCaps="false"
+                android:text="Daftar"
+                android:layout_marginTop="180dp"
+                android:src="@drawable/daftar"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/saya_sudah_punya_akun"
+                android:textSize="15sp"
+                android:textColor="@color/black"
+                android:layout_marginStart="10dp"
+                android:layout_marginTop="240dp"
+                android:gravity="center_horizontal|top"/>
+
+        </FrameLayout>
+
+    </LinearLayout>
+
+</RelativeLayout>
