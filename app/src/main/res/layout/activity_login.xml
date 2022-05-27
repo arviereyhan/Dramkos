@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ui.auth.LoginActivity">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="100dp"
+        android:layout_marginEnd="100dp"
+        android:layout_marginTop="64dp"
+        android:src="@drawable/vectorstroke"
+        android:gravity="center_horizontal|top"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="70dp"
+        android:layout_marginTop="200dp"
+        android:text="DRAMAKOS"
+        android:textColor="#2C7EF4"
+        android:textSize="47.06sp"
+        android:textStyle="bold"
+        android:gravity="center_horizontal|top"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="230dp"
+        android:gravity="center_horizontal|top">
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal|top">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal" />
+
+
+            <EditText
+                android:id="@+id/edtEmail"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_marginTop="60dp"
+                android:layout_marginStart="@dimen/_15sdp"
+                android:layout_marginEnd="@dimen/_15sdp"
+                android:background="@drawable/username"
+                android:hint="Username/Email"
+                android:paddingStart="@dimen/_15sdp"
+                android:text="user@gmail.com" />
+
+            <EditText
+                android:id="@+id/edtPassword"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_marginTop="120dp"
+                android:layout_marginStart="@dimen/_15sdp"
+                android:layout_marginEnd="@dimen/_15sdp"
+                android:background="@drawable/passowrd"
+                android:inputType="textPassword"
+                android:hint="Password"
+                android:paddingStart="@dimen/_15sdp"
+                android:text="123123"/>
+
+            <com.google.android.material.button.MaterialButton
+                android:id="@+id/btn_masuk"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/_45sdp"
+                android:text="@string/masuk"
+                android:textColor="@color/white"
+                android:layout_marginTop="@dimen/_140sdp"
+                android:layout_marginStart="@dimen/_20sdp"
+                android:layout_marginEnd="@dimen/_20sdp"
+                android:textAllCaps="false"
+                android:textSize="@dimen/_13sdp" />
+
+            <TextView
+                android:id="@+id/btnDaftar"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="@dimen/_30sdp"
+                android:layout_marginEnd="@dimen/_30sdp"
+                android:layout_marginTop="240dp"
+                android:background="@color/white"
+                android:gravity="center_horizontal|top"
+                android:text="@string/daftar"
+                android:textColor="@color/black"
+                android:textSize="15sp"
+                android:textStyle="bold" />
+
+        </FrameLayout>
+
+    </LinearLayout>
+
+</RelativeLayout>

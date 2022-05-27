@@ -1,3 +1,17 @@
 <resources>
     <string name="app_name">Dramkos</string>
+    <string name="title_activity_navigation">Navigation</string>
+    <string name="title_home">Home</string>
+    <string name="title_dashboard">Dashboard</string>
+    <string name="title_notifications">Notifications</string>
+    <string name="title_bookmark" />
+    <string name="kamu_mendaftar_sebagai_apa">Kamu mendaftar sebagai apa?</string>
+    <string name="admin">Admin</string>
+    <string name="user">User</string>
+    <string name="saya_sudah_punya_akun">Saya sudah punya akun</string>
+    <string name="daftar">Daftar</string>
+    <string name="todo">TODO</string>
+    <string name="title_rating">Rating</string>
+    <string name="title_profile">Profile</string>
+    <string name="masuk">Masuk</string>
 </resources>
