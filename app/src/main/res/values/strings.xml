@@ -11,4 +11,6 @@
     <string name="saya_sudah_punya_akun">Saya sudah punya akun</string>
     <string name="daftar">Daftar</string>
     <string name="todo">TODO</string>
+    <string name="title_rating">Rating</string>
+    <string name="title_profile">Profile</string>
 </resources>

@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".Register">
+    tools:context=".ui.auth.RegisterActivity">
 
         <ImageView
             android:layout_width="match_parent"
@@ -74,23 +74,27 @@
                     android:orientation="horizontal"/>
 
                     <EditText
+                        android:id="@+id/edtName"
                         android:layout_width="match_parent"
                         android:layout_height="50dp"
                         android:background="@drawable/colominput"/>
 
                     <EditText
+                        android:id="@+id/edtEmail"
                         android:layout_width="match_parent"
                         android:layout_height="50dp"
                         android:background="@drawable/username"
                         android:layout_marginTop="60dp"/>
 
                     <EditText
+                        android:id="@+id/edtPassword"
                         android:layout_width="match_parent"
                         android:layout_height="50dp"
                         android:background="@drawable/passowrd"
                         android:layout_marginTop="120dp"/>
 
                     <ImageButton
+                        android:id="@+id/btnDaftar"
                         android:layout_width="390dp"
                         android:layout_height="50dp"
                         android:layout_marginTop="180dp"

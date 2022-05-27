@@ -7,11 +7,11 @@ import android.view.ViewGroup
 import android.widget.TextView
 import androidx.fragment.app.Fragment
 import androidx.lifecycle.ViewModelProvider
-import com.example.dramkos.databinding.FragmentNotificationsBinding
+import com.example.dramkos.databinding.FragmentBookmarkBinding
 
 class BookmarkFragment : Fragment() {
 
-private var _binding: FragmentNotificationsBinding? = null
+private var _binding: FragmentBookmarkBinding? = null
   // This property is only valid between onCreateView and
   // onDestroyView.
   private val binding get() = _binding!!
@@ -24,10 +24,10 @@ private var _binding: FragmentNotificationsBinding? = null
     val notificationsViewModel =
             ViewModelProvider(this).get(BookmarkViewModel::class.java)
 
-    _binding = FragmentNotificationsBinding.inflate(inflater, container, false)
+    _binding = FragmentBookmarkBinding.inflate(inflater, container, false)
     val root: View = binding.root
 
-    val textView: TextView = binding.textNotifications
+    val textView: TextView = binding.textBookmark
     notificationsViewModel.text.observe(viewLifecycleOwner) {
       textView.text = it
     }

@@ -2,29 +2,32 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.example.dramkos">
 
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+
     <application
+        android:name=".util.MyApp"
         android:allowBackup="true"
         android:icon="@mipmap/ic_launcher"
         android:label="Dramkos"
+        android:networkSecurityConfig="@xml/network_security"
+        android:usesCleartextTraffic="true"
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
+
         android:theme="@style/Theme.Dramkos">
         <activity
-            android:name=".Login"
-            android:exported="false" />
+            android:name=".ui.auth.LoginActivity"
+            android:exported="true" />
         <activity
-            android:name=".RegisterAdmin"
-            android:exported="false" />
+            android:name=".ui.auth.RegisterActivity"
+            android:exported="true" />
         <activity
-            android:name=".RegisterUser"
-            android:exported="false" />
-        <activity
-            android:name=".Register"
-            android:exported="false" />
-        <activity
-            android:name=".Navigation"
+            android:name=".ui.navigation.NavigationActivity"
             android:exported="true"
             android:label="Navigation">
+
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
@@ -33,7 +36,10 @@
         </activity>
         <activity
             android:name=".MainActivity"
-            android:exported="true" />
+            android:exported="true" >
+
+
+        </activity>
     </application>
 
 </manifest>

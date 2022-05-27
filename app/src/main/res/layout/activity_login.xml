@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".Login">
+    tools:context=".ui.auth.LoginActivity">
 
     <ImageView
         android:layout_width="match_parent"
@@ -45,24 +45,28 @@
 
 
             <EditText
+                android:id="@+id/edtEmail"
                 android:layout_width="390dp"
                 android:layout_height="50dp"
                 android:layout_marginTop="60dp"
                 android:background="@drawable/username" />
 
             <EditText
+                android:id="@+id/edtPassword"
                 android:layout_width="390dp"
                 android:layout_height="50dp"
                 android:layout_marginTop="120dp"
                 android:background="@drawable/passowrd" />
 
             <ImageButton
+                android:id="@+id/btnMasuk"
                 android:layout_width="390dp"
                 android:layout_height="50dp"
                 android:layout_marginTop="180dp"
                 android:src="@drawable/daftar" />
 
             <TextView
+                android:id="@+id/btnDaftar"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginStart="10dp"
