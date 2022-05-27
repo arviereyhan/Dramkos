@@ -54,7 +54,7 @@ class LoginActivity : AppCompatActivity() {
             when (it.state) {
                 State.SUCCESS -> {
                     dismisLoading()
-                    showToast("Selamat datang " + it.data?.name)
+                    showToast("Selamat datang " + it.data?.nama)
                     pushActivity(NavigationActivity::class.java)
                 }
                 State.ERROR -> {

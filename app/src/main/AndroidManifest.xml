@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
     package="com.example.dramkos">
 
     <uses-permission android:name="android.permission.INTERNET" />
@@ -16,18 +17,11 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
 
-        android:theme="@style/Theme.Dramkos">
+        android:theme="@style/Theme.Dramkos"
+        tools:targetApi="n">
         <activity
             android:name=".ui.auth.LoginActivity"
-            android:exported="true" />
-        <activity
-            android:name=".ui.auth.RegisterActivity"
-            android:exported="true" />
-        <activity
-            android:name=".ui.navigation.NavigationActivity"
-            android:exported="true"
-            android:label="Navigation">
-
+            android:exported="true" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
@@ -35,10 +29,16 @@
             </intent-filter>
         </activity>
         <activity
+            android:name=".ui.auth.RegisterActivity"
+            android:exported="true" />
+        <activity
+            android:name=".ui.navigation.NavigationActivity"
+            android:exported="true">
+
+        </activity>
+        <activity
             android:name=".MainActivity"
             android:exported="true" >
-
-
         </activity>
     </application>
 

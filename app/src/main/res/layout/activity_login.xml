@@ -49,14 +49,21 @@
                 android:layout_width="390dp"
                 android:layout_height="50dp"
                 android:layout_marginTop="60dp"
-                android:background="@drawable/username" />
+                android:background="@drawable/username"
+                android:hint="Username/Email"
+                android:paddingStart="@dimen/_15sdp"
+                android:text="user@gmail.com"/>
 
             <EditText
                 android:id="@+id/edtPassword"
                 android:layout_width="390dp"
                 android:layout_height="50dp"
                 android:layout_marginTop="120dp"
-                android:background="@drawable/passowrd" />
+                android:background="@drawable/passowrd"
+                android:inputType="textPassword"
+                android:hint="Password"
+                android:paddingStart="@dimen/_15sdp"
+                android:text="123123"/>
 
             <ImageButton
                 android:id="@+id/btnMasuk"
