@@ -49,11 +49,11 @@
                 android:layout_width="match_parent"
                 android:layout_height="50dp"
                 android:layout_marginTop="60dp"
-                android:layout_marginStart="@dimen/_15sdp"
-                android:layout_marginEnd="@dimen/_15sdp"
-                android:background="@drawable/username"
+                android:layout_marginStart="15dp"
+                android:layout_marginEnd="15dp"
+                android:background="@drawable/kotak"
                 android:hint="Username/Email"
-                android:paddingStart="@dimen/_15sdp"
+                android:paddingStart="15dp"
                 android:text="user@gmail.com" />
 
             <EditText
@@ -61,32 +61,32 @@
                 android:layout_width="match_parent"
                 android:layout_height="50dp"
                 android:layout_marginTop="120dp"
-                android:layout_marginStart="@dimen/_15sdp"
-                android:layout_marginEnd="@dimen/_15sdp"
-                android:background="@drawable/passowrd"
+                android:layout_marginStart="15dp"
+                android:layout_marginEnd="15dp"
+                android:background="@drawable/kotak"
                 android:inputType="textPassword"
                 android:hint="Password"
-                android:paddingStart="@dimen/_15sdp"
+                android:paddingStart="5dp"
                 android:text="123123"/>
 
             <com.google.android.material.button.MaterialButton
                 android:id="@+id/btn_masuk"
                 android:layout_width="match_parent"
-                android:layout_height="@dimen/_45sdp"
+                android:layout_height="45dp"
                 android:text="@string/masuk"
                 android:textColor="@color/white"
-                android:layout_marginTop="@dimen/_140sdp"
-                android:layout_marginStart="@dimen/_20sdp"
-                android:layout_marginEnd="@dimen/_20sdp"
+                android:layout_marginTop="180dp"
+                android:layout_marginStart="20dp"
+                android:layout_marginEnd="20dp"
                 android:textAllCaps="false"
-                android:textSize="@dimen/_13sdp" />
+                android:textSize="13dp" />
 
             <TextView
                 android:id="@+id/btnDaftar"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:layout_marginStart="@dimen/_30sdp"
-                android:layout_marginEnd="@dimen/_30sdp"
+                android:layout_marginStart="30dp"
+                android:layout_marginEnd="30dp"
                 android:layout_marginTop="240dp"
                 android:background="@color/white"
                 android:gravity="center_horizontal|top"

@@ -76,24 +76,28 @@
             <EditText
                 android:layout_width="match_parent"
                 android:layout_height="50dp"
-                android:background="@drawable/colominput"/>
+                android:background="@drawable/kotak"
+                android:hint="Nama Lengkap"/>
 
             <EditText
                 android:layout_width="match_parent"
                 android:layout_height="50dp"
-                android:background="@drawable/username"
-                android:layout_marginTop="60dp"/>
+                android:background="@drawable/kotak"
+                android:layout_marginTop="60dp"
+                android:hint="Username/Email"/>
 
             <EditText
                 android:layout_width="match_parent"
                 android:layout_height="50dp"
-                android:background="@drawable/notlp"
+                android:background="@drawable/kotak"
+                android:hint="No.Tlp"
                 android:layout_marginTop="120dp"/>
 
             <EditText
                 android:layout_width="match_parent"
                 android:layout_height="50dp"
-                android:background="@drawable/passowrd"
+                android:background="@drawable/kotak"
+                android:hint="Password"
                 android:layout_marginTop="180dp"/>
 
             <ImageButton

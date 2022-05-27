@@ -66,6 +66,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginStart="10dp"
+        android:layout_marginEnd="10dp"
         android:layout_marginTop="360dp"
         android:gravity="center_horizontal|top">
 
@@ -81,18 +82,18 @@
             <EditText
                 android:layout_width="match_parent"
                 android:layout_height="50dp"
-                android:background="@drawable/colominput"/>
+                android:background="@drawable/kotak"/>
 
             <EditText
                 android:layout_width="match_parent"
                 android:layout_height="50dp"
-                android:background="@drawable/username"
+                android:background="@drawable/kotak"
                 android:layout_marginTop="60dp"/>
 
             <EditText
                 android:layout_width="match_parent"
                 android:layout_height="50dp"
-                android:background="@drawable/passowrd"
+                android:background="@drawable/kotak"
                 android:layout_marginTop="120dp"/>
 
             <com.google.android.material.button.MaterialButton

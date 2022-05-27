@@ -77,20 +77,23 @@
                         android:id="@+id/edtName"
                         android:layout_width="match_parent"
                         android:layout_height="50dp"
-                        android:background="@drawable/colominput"/>
+                        android:hint="Nama Lengkap"
+                        android:background="@drawable/kotak"/>
 
                     <EditText
                         android:id="@+id/edtEmail"
                         android:layout_width="match_parent"
                         android:layout_height="50dp"
-                        android:background="@drawable/username"
+                        android:hint="Username/Email"
+                        android:background="@drawable/kotak"
                         android:layout_marginTop="60dp"/>
 
                     <EditText
                         android:id="@+id/edtPassword"
                         android:layout_width="match_parent"
                         android:layout_height="50dp"
-                        android:background="@drawable/passowrd"
+                        android:hint="Password"
+                        android:background="@drawable/kotak"
                         android:layout_marginTop="120dp"/>
 
                     <ImageButton
