@@ -142,141 +142,31 @@
 
     </LinearLayout>
 
-    <com.google.android.material.card.MaterialCardView
-        android:layout_width="wrap_content"
-        android:layout_height="115dp"
-        android:layout_marginStart="30dp"
-        android:layout_marginTop="230dp"
-        android:layout_marginEnd="10dp"
-        android:layout_marginBottom="5dp"
-        android:orientation="vertical"
-        app:cardCornerRadius="8dp">
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="220dp"
+        android:scrollbars="none"
+        android:visibility="visible">
 
-        <LinearLayout
+        <RelativeLayout
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_marginBottom="5dp"
-            android:background="@color/colorPrimary_100"
-            android:orientation="horizontal">
+            android:layout_marginStart="10dp">
 
-            <ImageView
-                android:id="@+id/image_kos"
-                android:layout_width="90dp"
-                android:layout_marginTop="5dp"
-                android:layout_height="90dp"
-                android:layout_marginStart="5dp"
-                android:scaleType="centerCrop"
-                android:src="@drawable/imagekos" />
-
-            <LinearLayout
-                android:layout_width="223dp"
-                android:layout_height="wrap_content"
-                android:layout_marginStart="10dp"
-                android:orientation="vertical"
-                android:padding="5dp">
-
-                <TextView
-                    android:id="@+id/nama_kos"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:layout_marginVertical="3dp"
-                    android:text="Nama Kos- 2km"
-                    android:textSize="15sp" />
-
-                <TextView
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:layout_marginVertical="3dp"
-                    android:text="Babakan Lebak"
-                    android:textColor="@color/black"
-                    android:textSize="15sp" />
-
-
-                <LinearLayout
-                    android:id="@+id/ly_diskon"
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:gravity="center_vertical"
-                    android:orientation="horizontal"
-                    android:visibility="gone">
-
-                </LinearLayout>
-
-                <LinearLayout
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:gravity="center_vertical"
-                    android:orientation="horizontal">
-
-                    <androidx.appcompat.widget.AppCompatImageView
-                        android:layout_width="25dp"
-                        android:layout_height="match_parent"
-                        android:src="@drawable/ellipse" />
-
-                    <androidx.appcompat.widget.AppCompatImageView
-                        android:layout_width="25dp"
-                        android:layout_height="match_parent"
-                        android:src="@drawable/ellipse" />
-
-                    <androidx.appcompat.widget.AppCompatImageView
-                        android:layout_width="25dp"
-                        android:layout_height="match_parent"
-                        android:src="@drawable/ellipse" />
-
-                </LinearLayout>
-
-
-                <LinearLayout
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:gravity="center_vertical"
-                    android:orientation="horizontal">
-
-                    <androidx.appcompat.widget.AppCompatImageView
-                        android:layout_width="18dp"
-                        android:layout_height="18dp"
-                        android:src="@drawable/ic_baseline_star_24"
-                        app:tint="#FFC107" />
-
-                    <androidx.appcompat.widget.AppCompatImageView
-                        android:layout_width="18dp"
-                        android:layout_height="18dp"
-                        android:src="@drawable/ic_baseline_star_24"
-                        app:tint="#FFC107" />
-
-                    <androidx.appcompat.widget.AppCompatImageView
-                        android:layout_width="18dp"
-                        android:layout_height="18dp"
-                        android:src="@drawable/ic_baseline_star_24"
-                        app:tint="#FFC107" />
-
-                    <androidx.appcompat.widget.AppCompatImageView
-                        android:layout_width="18dp"
-                        android:layout_height="18dp"
-                        android:src="@drawable/ic_baseline_star_24"
-                        app:tint="#FFC107" />
-
-                    <androidx.appcompat.widget.AppCompatImageView
-                        android:layout_width="18dp"
-                        android:layout_height="18dp"
-                        android:src="@drawable/ic_baseline_star_24"
-                        app:tint="#FFC107" />
-
-                </LinearLayout>
-
-            </LinearLayout>
-
-            <ImageView
+            <androidx.recyclerview.widget.RecyclerView
+                android:id="@+id/rv_product_terlaris"
                 android:layout_width="match_parent"
-                android:layout_height="30dp"
-                android:layout_marginTop="5dp"
-                android:layout_marginEnd="5dp"
-                android:src="@drawable/ic_baseline_bookmark_24"
-                app:tint="@color/colorPrimary_300">
-            </ImageView>
-        </LinearLayout>
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                app:layoutManager="androidx.recyclerview.widget.LinearLayoutManager"
+                tools:itemCount="10"
+                tools:listitem="@layout/item_home_produk_kos" />
 
-    </com.google.android.material.card.MaterialCardView>
+        </RelativeLayout>
+
+    </ScrollView>
+
 
 
 
