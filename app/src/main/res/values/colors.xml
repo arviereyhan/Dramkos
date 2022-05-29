@@ -15,6 +15,7 @@
     <color name="colorOnPrimary">#41a0ff</color>
 
     <color name="colorPrimary_200">#8fc7ff</color>
+    <color name="colorPrimary_100">#D5E5FD</color>
     <color name="colorPrimary_300">#62b1ff</color>
     <color name="colorPrimary_400">#41a0ff</color>
     <color name="colorPrimary_500">#278fff</color>
