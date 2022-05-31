@@ -1,4 +1,4 @@
-package com.example.dramkos.ui.home.adapter
+package com.example.dramkos.ui.bookmark.adapter
 
 import android.annotation.SuppressLint
 import android.view.LayoutInflater
@@ -9,7 +9,7 @@ import com.example.dramkos.core.data.source.model.Kos
 import com.example.dramkos.databinding.ItemHomeProdukKosBinding
 import com.inyongtisto.myhelper.extension.toVisible
 
-class ProductKosAdapter : RecyclerView.Adapter<ProductKosAdapter.ViewHolder>() {
+class BookmarkKosAdapter : RecyclerView.Adapter<BookmarkKosAdapter.ViewHolder>() {
 
     private var data = ArrayList<Kos>()
 

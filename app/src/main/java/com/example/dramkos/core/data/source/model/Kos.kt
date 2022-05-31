@@ -6,5 +6,5 @@ data class Kos(
     val image: Int,
     val alamat: String,
     val jarak: Double,
-    val rating: Double?,
+    val rating: Double,
 )

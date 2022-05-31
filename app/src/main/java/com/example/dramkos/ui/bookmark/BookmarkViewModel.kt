@@ -3,11 +3,12 @@ package com.example.dramkos.ui.bookmark
 import androidx.lifecycle.LiveData
 import androidx.lifecycle.MutableLiveData
 import androidx.lifecycle.ViewModel
+import com.example.dramkos.core.data.source.local.DummyData
+import com.example.dramkos.core.data.source.model.Bookmark
+import com.example.dramkos.core.data.source.model.Kos
 
 class BookmarkViewModel : ViewModel() {
-
-    private val _text = MutableLiveData<String>().apply {
-        value = "This is bookmark Fragment"
+    val listKos: LiveData<List<Kos>> = MutableLiveData<List<Kos>>().apply {
+        value = DummyData.listKos
     }
-    val text: LiveData<String> = _text
 }

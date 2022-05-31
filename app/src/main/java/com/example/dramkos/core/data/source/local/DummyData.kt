@@ -1,6 +1,7 @@
 package com.example.dramkos.core.data.source.local
 
 import com.example.dramkos.R
+import com.example.dramkos.core.data.source.model.Bookmark
 import com.example.dramkos.core.data.source.model.Kos
 
 object DummyData {
@@ -11,6 +12,5 @@ object DummyData {
         Kos(id = 4, name = "Tak tau", image = R.drawable.asset_kos, alamat = "Babakan Tengah", jarak = 0.8, rating = 4.4),
         Kos(id = 5, name = "Suka suka sya", image = R.drawable.asset_kos, alamat = "Dimana kek", jarak = 1.8, rating = 3.4),
         Kos(id = 6, name = "Apa Ya?", image = R.drawable.asset_kos, alamat = "Jauhh", jarak = 2.8, rating = 5.0)
-
     )
 }

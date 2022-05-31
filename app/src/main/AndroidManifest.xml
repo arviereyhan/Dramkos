@@ -10,11 +10,11 @@
     <application
         android:name=".util.MyApp"
         android:allowBackup="true"
-        android:icon="@mipmap/ic_launcher"
+        android:icon="@mipmap/ic_dramkos_launcher"
         android:label="Dramkos"
         android:networkSecurityConfig="@xml/network_security"
         android:usesCleartextTraffic="true"
-        android:roundIcon="@mipmap/ic_launcher_round"
+        android:roundIcon="@mipmap/ic_dramkos_launcher_round"
         android:supportsRtl="true"
 
         android:theme="@style/Theme.Dramkos"
