@@ -23,7 +23,7 @@
                                 <PersistentState>
                                   <option name="values">
                                     <map>
-                                      <entry key="url" value="file:/$USER_HOME$/AppData/Local/Android/Sdk/icons/material/materialicons/arrow_back/baseline_arrow_back_24.xml" />
+                                      <entry key="url" value="file:/$USER_HOME$/AppData/Local/Android/Sdk/icons/material/materialicons/ac_unit/baseline_ac_unit_24.xml" />
                                     </map>
                                   </option>
                                 </PersistentState>
@@ -33,9 +33,10 @@
                         </option>
                         <option name="values">
                           <map>
+                            <entry key="assetSourceType" value="FILE" />
                             <entry key="color" value="efeded" />
-                            <entry key="outputName" value="ic_baseline_arrow_back_24" />
-                            <entry key="sourceFile" value="C:\Users\ACER\Documents\GitHub\Dramkos" />
+                            <entry key="outputName" value="ic_wifi" />
+                            <entry key="sourceFile" value="D:\Semester 4\RPL\Space\wifi.svg" />
                           </map>
                         </option>
                       </PersistentState>

@@ -67,14 +67,19 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content">
 
-            <com.google.android.material.textfield.TextInputEditText
-                android:id="@+id/edt_name"
+            <TextView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:background="@color/white"
-                android:hint="Username"
-                android:inputType="textEmailAddress"
                 android:textColor="@color/colorPrimary_400"
+                android:paddingStart="0dp"
+                android:text="Username" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/white"
+                android:textColor="@color/black"
                 android:paddingStart="0dp"
                 android:text="aini" />
 
@@ -82,20 +87,24 @@
 
         <com.google.android.material.textfield.TextInputLayout
             android:layout_width="match_parent"
-            android:layout_height="wrap_content">
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp">
 
-            <com.google.android.material.textfield.TextInputEditText
-                android:id="@+id/edt_email"
+            <TextView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:textColor="@color/colorPrimary_400"
-                android:layout_marginTop="15dp"
                 android:background="@color/white"
-                android:hint="Email"
-                android:inputType="textEmailAddress"
+                android:textColor="@color/colorPrimary_400"
                 android:paddingStart="0dp"
-                android:text="ainii@gmail.com" />
+                android:text="Email" />
 
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/white"
+                android:textColor="@color/black"
+                android:paddingStart="0dp"
+                android:text="aininura" />
         </com.google.android.material.textfield.TextInputLayout>
 
         <com.google.android.material.textfield.TextInputLayout

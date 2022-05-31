@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
-    package="com.example.dramkos">
+    package="com.example.dramkos" >
 
     <uses-permission android:name="android.permission.INTERNET" />
     <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
@@ -13,30 +13,30 @@
         android:icon="@mipmap/ic_launcher"
         android:label="Dramkos"
         android:networkSecurityConfig="@xml/network_security"
-        android:usesCleartextTraffic="true"
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
-
         android:theme="@style/Theme.Dramkos"
-        tools:targetApi="n">
+        android:usesCleartextTraffic="true"
+        tools:targetApi="n" >
+        <activity
+            android:name=".Navigation2"
+            android:exported="false"
+            android:label="@string/title_activity_navigation2" />
         <activity
             android:name=".ui.auth.LoginActivity"
             android:exported="true" >
-
         </activity>
         <activity
             android:name=".ui.auth.RegisterActivity"
             android:exported="true" />
         <activity
             android:name=".ui.navigation.NavigationActivity"
-            android:exported="true">
-
+            android:exported="true" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
-
         </activity>
         <activity
             android:name=".MainActivity"

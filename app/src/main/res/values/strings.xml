@@ -14,4 +14,5 @@
     <string name="title_rating">Rating</string>
     <string name="title_profile">Profile</string>
     <string name="masuk">Masuk</string>
+    <string name="title_activity_navigation2">Navigation2</string>
 </resources>
