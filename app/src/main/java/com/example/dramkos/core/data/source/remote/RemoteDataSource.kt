@@ -7,7 +7,9 @@ import okhttp3.MultipartBody
 
 class RemoteDataSource(private val api: ApiService) {
 
-    suspend fun login(data: LoginRequest) = api.login(data)
+    suspend fun userLogin(data: LoginRequest) = api.userLogin(data)
+    suspend fun adminLogin(data: LoginRequest) = api.adminLogin(data)
 
-    suspend fun register(data: RegisterRequest) = api.register(data)
+    suspend fun userRegister(data: RegisterRequest) = api.userRegister(data)
+    suspend fun adminRegister(data: RegisterRequest) = api.adminRegister(data)
 }

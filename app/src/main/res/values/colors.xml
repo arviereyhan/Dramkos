@@ -21,5 +21,7 @@
     <color name="colorPrimary_500">#278fff</color>
     <color name="colorPrimary_600">#2a81f0</color>
     <color name="colorPrimary_700">#2a6fdc</color>
+    <color name="secondaryColor">#95BEF9</color>
+    <color name="primaryColor">#2C7EF4</color>
 
 </resources>

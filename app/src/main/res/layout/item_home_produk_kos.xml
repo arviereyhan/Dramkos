@@ -107,7 +107,7 @@
                 android:layout_height="30dp"
                 android:layout_marginTop="5dp"
                 android:layout_marginEnd="5dp"
-                android:src="@drawable/ic_baseline_bookmark_24"
+                android:src="@drawable/ic_bi_bookmark_fill1"
                 app:tint="@color/colorPrimary_300">
             </ImageView>
         </LinearLayout>
