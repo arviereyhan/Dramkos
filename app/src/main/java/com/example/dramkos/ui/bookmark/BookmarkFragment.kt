@@ -27,6 +27,10 @@ private var _binding: FragmentBookmarkBinding? = null
     _binding = FragmentBookmarkBinding.inflate(inflater, container, false)
     val root: View = binding.root
 
+    val textView: TextView = binding.textBookmark
+    notificationsViewModel.text.observe(viewLifecycleOwner) {
+      textView.text = it
+    }
     return root
   }
 

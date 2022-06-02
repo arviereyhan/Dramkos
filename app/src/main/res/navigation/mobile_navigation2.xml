@@ -12,14 +12,14 @@
         tools:layout="@layout/fragment_home" />
 
     <fragment
-        android:id="@+id/navigation_tambahkos"
-        android:name="com.example.dramkos.ui.tambahkos.TambahKosFragment"
+        android:id="@+id/navigation_dashboard"
+        android:name="com.example.dramkos.ui.dashboard.DashboardFragment"
         android:label="@string/title_dashboard"
-        tools:layout="@layout/fragment_tambahkos" />
+        tools:layout="@layout/fragment_dashboard" />
 
     <fragment
-        android:id="@+id/navigation_profile"
+        android:id="@+id/navigation_notifications"
         android:name="com.example.dramkos.ui.notifications.NotificationsFragment"
         android:label="@string/title_notifications"
-        tools:layout="@layout/fragment_profile" />
+        tools:layout="@layout/fragment_notifications" />
 </navigation>
