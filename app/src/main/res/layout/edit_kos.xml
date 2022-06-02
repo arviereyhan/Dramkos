@@ -61,6 +61,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:background="@drawable/kotak"
+                android:text="D'Campus"
                 android:hint="Nama Kos"/>
 
             <EditText
@@ -68,6 +69,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="150dp"
                 android:layout_marginTop="20dp"
+                android:text="Jln. Yang Lurus Nomor 12, samping pos satpam"
                 android:background="@drawable/kotak"
                 android:hint="Alamat" />
 
@@ -76,6 +78,7 @@
                 android:layout_marginTop="20dp"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
+                android:text="Cangkurawok"
                 android:background="@drawable/kotak"
                 android:hint="Nama Kos"/>
 
@@ -84,6 +87,7 @@
                 android:layout_marginTop="20dp"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
+                android:text="2 km"
                 android:background="@drawable/kotak"
                 android:hint="Jarak dari kampus" />
 
@@ -195,11 +199,13 @@
                     android:id="@+id/kisaran_harga"
                     android:layout_width="150dp"
                     android:layout_height="60dp"
+                    android:text="500.000"
                     android:background="@drawable/ic_colomharga"/>
                 <ImageView
                     android:layout_width="30dp"
                     android:layout_marginTop="30dp"
                     android:layout_height="4dp"
+                    android:text="1.500.000"
                     android:layout_marginStart="15dp"
                     android:background="@drawable/ic_strip"/>
 

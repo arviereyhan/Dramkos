@@ -35,8 +35,8 @@
                           <map>
                             <entry key="assetSourceType" value="FILE" />
                             <entry key="color" value="efeded" />
-                            <entry key="outputName" value="ic_botton_upload_foto" />
-                            <entry key="sourceFile" value="D:\Semester 4\RPL\Space\botton_upload_foto.svg" />
+                            <entry key="outputName" value="ic_picture_kost" />
+                            <entry key="sourceFile" value="D:\Semester 4\RPL\Space\picture_kost.svg" />
                           </map>
                         </option>
                       </PersistentState>
