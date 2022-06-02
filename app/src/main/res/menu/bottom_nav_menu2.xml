@@ -1,24 +1,19 @@
 <?xml version="1.0" encoding="utf-8"?>
 <menu xmlns:android="http://schemas.android.com/apk/res/android">
-
     <item
         android:id="@+id/navigation_home"
         android:icon="@drawable/ic_home_black_24dp"
         android:title="@string/title_home"/>
 
-    <item
-        android:id="@+id/navigation_bookmark"
-        android:icon="@drawable/ic_baseline_bookmark_24"
-        android:title="Bookmark"/>
 
     <item
-        android:id="@+id/navigation_rating"
-        android:icon="@drawable/ic_baseline_star_rate_24"
-        android:title="Rating"/>
+        android:id="@+id/navigation_tambahkos"
+        android:icon="@drawable/ic_plus_tambahkos"
+        
+        android:title="tambah"/>
 
     <item
         android:id="@+id/navigation_profile"
         android:icon="@drawable/ic_baseline_account_box_24"
         android:title="Profile"/>
-
 </menu>

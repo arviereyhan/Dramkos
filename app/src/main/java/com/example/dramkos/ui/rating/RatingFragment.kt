@@ -27,10 +27,7 @@ private var _binding: FragmentRatingBinding? = null
     _binding = FragmentRatingBinding.inflate(inflater, container, false)
     val root: View = binding.root
 
-    val textView: TextView = binding.textRating
-    ratingViewModel.text.observe(viewLifecycleOwner) {
-      textView.text = it
-    }
+
     return root
   }
 
