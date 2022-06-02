@@ -71,17 +71,17 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:background="@color/white"
-                android:textColor="@color/colorPrimary_400"
                 android:paddingStart="0dp"
-                android:text="Username" />
+                android:text="Username"
+                android:textColor="@color/colorPrimary_400" />
 
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:background="@color/white"
-                android:textColor="@color/black"
                 android:paddingStart="0dp"
-                android:text="aini" />
+                android:text="aini"
+                android:textColor="@color/black" />
 
         </com.google.android.material.textfield.TextInputLayout>
 
@@ -94,29 +94,29 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:background="@color/white"
-                android:textColor="@color/colorPrimary_400"
                 android:paddingStart="0dp"
-                android:text="Email" />
+                android:text="Email"
+                android:textColor="@color/colorPrimary_400" />
 
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:background="@color/white"
-                android:textColor="@color/black"
                 android:paddingStart="0dp"
-                android:text="aininura" />
+                android:text="aininura"
+                android:textColor="@color/black" />
         </com.google.android.material.textfield.TextInputLayout>
 
         <com.google.android.material.textfield.TextInputLayout
             android:layout_width="match_parent"
-            android:layout_marginTop="20dp"
-            android:layout_height="wrap_content"/>
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp" />
 
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:textColor="@color/colorPrimary_400"
-            android:text="Pengaturan"/>
+            android:text="Pengaturan"
+            android:textColor="@color/colorPrimary_400" />
 
         <RelativeLayout
             android:layout_width="match_parent"
@@ -133,14 +133,13 @@
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:textColor="@color/colorPrimary_400"
-                android:text="Keluar"
                 android:layout_marginStart="40dp"
                 android:layout_marginTop="17dp"
-                android:layout_marginEnd="250dp"/>
+                android:layout_marginEnd="250dp"
+                android:text="Keluar"
+                android:textColor="@color/colorPrimary_400" />
 
         </RelativeLayout>
-
 
 
     </LinearLayout>
