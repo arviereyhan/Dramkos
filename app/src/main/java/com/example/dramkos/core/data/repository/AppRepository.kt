@@ -14,10 +14,10 @@ import java.lang.Exception
 
 class AppRepository(val local: LocalDataSource, val remote: RemoteDataSource) {
 
-    fun login(data: LoginRequest) = flow {
+    fun userLogin(data: LoginRequest) = flow {
         emit(Resource.loading(null))
         try {
-            remote.login(data).let {
+            remote.userLogin(data).let {
                 if (it.isSuccessful) {
                     Prefs.isLogin = true
                     val body = it.body()
@@ -36,10 +36,54 @@ class AppRepository(val local: LocalDataSource, val remote: RemoteDataSource) {
         }
     }
 
-    fun register(data: RegisterRequest) = flow {
+    fun adminLogin(data: LoginRequest) = flow {
         emit(Resource.loading(null))
         try {
-            remote.register(data).let {
+            remote.adminLogin(data).let {
+                if (it.isSuccessful) {
+                    Prefs.isLogin = true
+                    val body = it.body()
+                    val user = body?.data
+                    Prefs.setUser(user)
+                    emit(Resource.success(user))
+                    logs("succes:" + body.toString())
+                } else {
+                    emit(Resource.error(it.getErrorBody()?.message ?: "Default error dongs", null))
+                    logs("Error:" + "keteragan error")
+                }
+            }
+        } catch (e: Exception) {
+            emit(Resource.error(e.message ?: "Terjadi Kesalahan", null))
+            logs("Error:" + e.message)
+        }
+    }
+
+    fun userRegister(data: RegisterRequest) = flow {
+        emit(Resource.loading(null))
+        try {
+            remote.userRegister(data).let {
+                if (it.isSuccessful) {
+                    Prefs.isLogin = true
+                    val body = it.body()
+                    val user = body?.data
+                    Prefs.setUser(user)
+                    emit(Resource.success(user))
+                    logs("succes:" + body.toString())
+                } else {
+                    emit(Resource.error(it.getErrorBody()?.message ?: "Default error dongs", null))
+                    logs("Error:" + "keteragan error")
+                }
+            }
+        } catch (e: Exception) {
+            emit(Resource.error(e.message ?: "Terjadi Kesalahan", null))
+            logs("Error:" + e.message)
+        }
+    }
+
+    fun adminRegister(data: RegisterRequest) = flow {
+        emit(Resource.loading(null))
+        try {
+            remote.adminRegister(data).let {
                 if (it.isSuccessful) {
                     Prefs.isLogin = true
                     val body = it.body()

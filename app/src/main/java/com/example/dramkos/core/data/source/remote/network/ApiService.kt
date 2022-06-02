@@ -12,13 +12,22 @@ import retrofit2.http.*
 interface ApiService {
 
     @POST("userLogin")
-    suspend fun login(
+    suspend fun userLogin(
         @Body login: LoginRequest,
     ): Response<LoginResponse>
 
-    // "https://127.0.0.1:8000/api/register"
-    @POST("register")
-    suspend fun register(
+    @POST("adminLogin")
+    suspend fun adminLogin(
+        @Body login: LoginRequest,
+    ): Response<LoginResponse>
+
+    @POST("userRegister")
+    suspend fun userRegister(
+        @Body data: RegisterRequest
+    ): Response<LoginResponse>
+
+    @POST("adminRegister")
+    suspend fun adminRegister(
         @Body data: RegisterRequest
     ): Response<LoginResponse>
 }

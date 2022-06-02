@@ -15,10 +15,13 @@
     <color name="colorOnPrimary">#41a0ff</color>
 
     <color name="colorPrimary_200">#8fc7ff</color>
+    <color name="colorPrimary_100">#D5E5FD</color>
     <color name="colorPrimary_300">#62b1ff</color>
     <color name="colorPrimary_400">#41a0ff</color>
     <color name="colorPrimary_500">#278fff</color>
     <color name="colorPrimary_600">#2a81f0</color>
     <color name="colorPrimary_700">#2a6fdc</color>
+    <color name="secondaryColor">#95BEF9</color>
+    <color name="primaryColor">#2C7EF4</color>
 
 </resources>

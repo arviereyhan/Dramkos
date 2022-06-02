@@ -14,4 +14,6 @@
     <string name="title_rating">Rating</string>
     <string name="title_profile">Profile</string>
     <string name="masuk">Masuk</string>
+    <string name="Admin">Admin</string>
+    <string name="User">User</string>
 </resources>

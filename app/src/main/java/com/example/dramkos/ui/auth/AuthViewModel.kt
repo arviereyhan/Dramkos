@@ -5,11 +5,12 @@ import androidx.lifecycle.asLiveData
 import com.example.dramkos.core.data.repository.AppRepository
 import com.example.dramkos.core.data.source.remote.request.LoginRequest
 import com.example.dramkos.core.data.source.remote.request.RegisterRequest
-import okhttp3.MultipartBody
 
 class AuthViewModel(val repo: AppRepository) : ViewModel() {
 
-    fun login(data: LoginRequest) = repo.login(data).asLiveData()
+    fun userLogin(data: LoginRequest) = repo.userLogin(data).asLiveData()
+    fun adminLogin(data: LoginRequest) = repo.adminLogin(data).asLiveData()
 
-    fun register(data: RegisterRequest) = repo.register(data).asLiveData()
+    fun userRegister(data: RegisterRequest) = repo.userRegister(data).asLiveData()
+    fun adminRegister(data: RegisterRequest) = repo.adminRegister(data).asLiveData()
 }

@@ -3,16 +3,55 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/Kuliah/Semester 4/06. Rekayasa Perangkat Lunak/Praktikum (1)/Project RPL/Dramkos/Dramkos/app/src/main/res/drawable-v24/ic_ac.xml" value="0.1" />
+        <entry key="..\:/Kuliah/Semester 4/06. Rekayasa Perangkat Lunak/Praktikum (1)/Project RPL/Dramkos/Dramkos/app/src/main/res/drawable-v24/ic_baseline_ac_unit_24.xml" value="0.1" />
+        <entry key="..\:/Kuliah/Semester 4/06. Rekayasa Perangkat Lunak/Praktikum (1)/Project RPL/Dramkos/Dramkos/app/src/main/res/drawable-v24/ic_baseline_arrow_back_24.xml" value="0.1" />
+        <entry key="..\:/Kuliah/Semester 4/06. Rekayasa Perangkat Lunak/Praktikum (1)/Project RPL/Dramkos/Dramkos/app/src/main/res/drawable-v24/ic_baseline_settings_24.xml" value="0.1" />
+        <entry key="..\:/Kuliah/Semester 4/06. Rekayasa Perangkat Lunak/Praktikum (1)/Project RPL/Dramkos/Dramkos/app/src/main/res/drawable-v24/ic_colomharga.xml" value="0.1" />
+        <entry key="..\:/Kuliah/Semester 4/06. Rekayasa Perangkat Lunak/Praktikum (1)/Project RPL/Dramkos/Dramkos/app/src/main/res/drawable-v24/ic_gambar_kos.xml" value="0.106" />
+        <entry key="..\:/Kuliah/Semester 4/06. Rekayasa Perangkat Lunak/Praktikum (1)/Project RPL/Dramkos/Dramkos/app/src/main/res/drawable-v24/ic_latar_kos.xml" value="0.106" />
+        <entry key="..\:/Kuliah/Semester 4/06. Rekayasa Perangkat Lunak/Praktikum (1)/Project RPL/Dramkos/Dramkos/app/src/main/res/drawable/colunsearch.xml" value="0.1725" />
+        <entry key="..\:/Kuliah/Semester 4/06. Rekayasa Perangkat Lunak/Praktikum (1)/Project RPL/Dramkos/Dramkos/app/src/main/res/drawable/ic_baseline_bookmark_24.xml" value="0.1725" />
+        <entry key="..\:/Kuliah/Semester 4/06. Rekayasa Perangkat Lunak/Praktikum (1)/Project RPL/Dramkos/Dramkos/app/src/main/res/drawable/ic_baseline_bookmark_border_24.xml" value="0.209" />
+        <entry key="..\:/Kuliah/Semester 4/06. Rekayasa Perangkat Lunak/Praktikum (1)/Project RPL/Dramkos/Dramkos/app/src/main/res/drawable/ic_baseline_filter_alt_24.xml" value="0.1725" />
+        <entry key="..\:/Kuliah/Semester 4/06. Rekayasa Perangkat Lunak/Praktikum (1)/Project RPL/Dramkos/Dramkos/app/src/main/res/drawable/ic_baseline_search_24.xml" value="0.1725" />
+        <entry key="..\:/Kuliah/Semester 4/06. Rekayasa Perangkat Lunak/Praktikum (1)/Project RPL/Dramkos/Dramkos/app/src/main/res/drawable/ic_baseline_single_bed_24.xml" value="0.1" />
+        <entry key="..\:/Kuliah/Semester 4/06. Rekayasa Perangkat Lunak/Praktikum (1)/Project RPL/Dramkos/Dramkos/app/src/main/res/drawable/ic_baseline_sort_24.xml" value="0.1725" />
+        <entry key="..\:/Kuliah/Semester 4/06. Rekayasa Perangkat Lunak/Praktikum (1)/Project RPL/Dramkos/Dramkos/app/src/main/res/drawable/ic_baseline_star_24.xml" value="0.1" />
+        <entry key="..\:/Kuliah/Semester 4/06. Rekayasa Perangkat Lunak/Praktikum (1)/Project RPL/Dramkos/Dramkos/app/src/main/res/drawable/ic_bi_bookmark_fill1.xml" value="0.115" />
+        <entry key="..\:/Kuliah/Semester 4/06. Rekayasa Perangkat Lunak/Praktikum (1)/Project RPL/Dramkos/Dramkos/app/src/main/res/drawable/ic_colom_tambahkos.xml" value="0.1" />
+        <entry key="..\:/Kuliah/Semester 4/06. Rekayasa Perangkat Lunak/Praktikum (1)/Project RPL/Dramkos/Dramkos/app/src/main/res/drawable/ic_dapur.xml" value="0.1" />
+        <entry key="..\:/Kuliah/Semester 4/06. Rekayasa Perangkat Lunak/Praktikum (1)/Project RPL/Dramkos/Dramkos/app/src/main/res/drawable/ic_plus_tambahkos.xml" value="0.1" />
+        <entry key="..\:/Kuliah/Semester 4/06. Rekayasa Perangkat Lunak/Praktikum (1)/Project RPL/Dramkos/Dramkos/app/src/main/res/drawable/ic_strip.xml" value="0.1" />
+        <entry key="..\:/Kuliah/Semester 4/06. Rekayasa Perangkat Lunak/Praktikum (1)/Project RPL/Dramkos/Dramkos/app/src/main/res/drawable/ic_wifi.xml" value="0.1" />
+        <entry key="..\:/Kuliah/Semester 4/06. Rekayasa Perangkat Lunak/Praktikum (1)/Project RPL/Dramkos/Dramkos/app/src/main/res/drawable/rectangle.xml" value="0.1725" />
         <entry key="..\:/Kuliah/Semester 4/06. Rekayasa Perangkat Lunak/Praktikum (1)/Project RPL/Dramkos/Dramkos/app/src/main/res/layout/activity_login.xml" value="0.264" />
+        <entry key="..\:/Kuliah/Semester 4/06. Rekayasa Perangkat Lunak/Praktikum (1)/Project RPL/Dramkos/Dramkos/app/src/main/res/layout/activity_login_admin.xml" value="0.2" />
+        <entry key="..\:/Kuliah/Semester 4/06. Rekayasa Perangkat Lunak/Praktikum (1)/Project RPL/Dramkos/Dramkos/app/src/main/res/layout/activity_login_user.xml" value="0.25" />
         <entry key="..\:/Kuliah/Semester 4/06. Rekayasa Perangkat Lunak/Praktikum (1)/Project RPL/Dramkos/Dramkos/app/src/main/res/layout/activity_main.xml" value="0.2" />
         <entry key="..\:/Kuliah/Semester 4/06. Rekayasa Perangkat Lunak/Praktikum (1)/Project RPL/Dramkos/Dramkos/app/src/main/res/layout/activity_navigation.xml" value="0.1" />
-        <entry key="..\:/Kuliah/Semester 4/06. Rekayasa Perangkat Lunak/Praktikum (1)/Project RPL/Dramkos/Dramkos/app/src/main/res/layout/activity_register.xml" value="0.10989583333333333" />
-        <entry key="..\:/Kuliah/Semester 4/06. Rekayasa Perangkat Lunak/Praktikum (1)/Project RPL/Dramkos/Dramkos/app/src/main/res/layout/activity_register_admin.xml" value="0.10989583333333333" />
-        <entry key="..\:/Kuliah/Semester 4/06. Rekayasa Perangkat Lunak/Praktikum (1)/Project RPL/Dramkos/Dramkos/app/src/main/res/layout/activity_register_user.xml" value="0.10989583333333333" />
-        <entry key="..\:/Kuliah/Semester 4/06. Rekayasa Perangkat Lunak/Praktikum (1)/Project RPL/Dramkos/Dramkos/app/src/main/res/layout/fragment_bookmark.xml" value="0.1" />
-        <entry key="..\:/Kuliah/Semester 4/06. Rekayasa Perangkat Lunak/Praktikum (1)/Project RPL/Dramkos/Dramkos/app/src/main/res/layout/fragment_home.xml" value="0.4" />
-        <entry key="..\:/Kuliah/Semester 4/06. Rekayasa Perangkat Lunak/Praktikum (1)/Project RPL/Dramkos/Dramkos/app/src/main/res/layout/fragment_profile.xml" value="0.1" />
+        <entry key="..\:/Kuliah/Semester 4/06. Rekayasa Perangkat Lunak/Praktikum (1)/Project RPL/Dramkos/Dramkos/app/src/main/res/layout/activity_navigation_admin.xml" value="0.1" />
+        <entry key="..\:/Kuliah/Semester 4/06. Rekayasa Perangkat Lunak/Praktikum (1)/Project RPL/Dramkos/Dramkos/app/src/main/res/layout/activity_navigation_user.xml" value="0.2" />
+        <entry key="..\:/Kuliah/Semester 4/06. Rekayasa Perangkat Lunak/Praktikum (1)/Project RPL/Dramkos/Dramkos/app/src/main/res/layout/activity_register.xml" value="0.2" />
+        <entry key="..\:/Kuliah/Semester 4/06. Rekayasa Perangkat Lunak/Praktikum (1)/Project RPL/Dramkos/Dramkos/app/src/main/res/layout/activity_register_admin.xml" value="0.1" />
+        <entry key="..\:/Kuliah/Semester 4/06. Rekayasa Perangkat Lunak/Praktikum (1)/Project RPL/Dramkos/Dramkos/app/src/main/res/layout/activity_register_user.xml" value="0.2" />
+        <entry key="..\:/Kuliah/Semester 4/06. Rekayasa Perangkat Lunak/Praktikum (1)/Project RPL/Dramkos/Dramkos/app/src/main/res/layout/activity_user_navigation.xml" value="0.14583333333333334" />
+        <entry key="..\:/Kuliah/Semester 4/06. Rekayasa Perangkat Lunak/Praktikum (1)/Project RPL/Dramkos/Dramkos/app/src/main/res/layout/fragment_bookmark.xml" value="0.264" />
+        <entry key="..\:/Kuliah/Semester 4/06. Rekayasa Perangkat Lunak/Praktikum (1)/Project RPL/Dramkos/Dramkos/app/src/main/res/layout/fragment_home.xml" value="0.264" />
+        <entry key="..\:/Kuliah/Semester 4/06. Rekayasa Perangkat Lunak/Praktikum (1)/Project RPL/Dramkos/Dramkos/app/src/main/res/layout/fragment_home_admin.xml" value="0.2" />
+        <entry key="..\:/Kuliah/Semester 4/06. Rekayasa Perangkat Lunak/Praktikum (1)/Project RPL/Dramkos/Dramkos/app/src/main/res/layout/fragment_home_user.xml" value="0.11145833333333334" />
+        <entry key="..\:/Kuliah/Semester 4/06. Rekayasa Perangkat Lunak/Praktikum (1)/Project RPL/Dramkos/Dramkos/app/src/main/res/layout/fragment_profile.xml" value="0.2" />
+        <entry key="..\:/Kuliah/Semester 4/06. Rekayasa Perangkat Lunak/Praktikum (1)/Project RPL/Dramkos/Dramkos/app/src/main/res/layout/fragment_profile_admin.xml" value="0.11041666666666666" />
+        <entry key="..\:/Kuliah/Semester 4/06. Rekayasa Perangkat Lunak/Praktikum (1)/Project RPL/Dramkos/Dramkos/app/src/main/res/layout/fragment_profile_user.xml" value="0.11041666666666666" />
         <entry key="..\:/Kuliah/Semester 4/06. Rekayasa Perangkat Lunak/Praktikum (1)/Project RPL/Dramkos/Dramkos/app/src/main/res/layout/fragment_rating.xml" value="0.1" />
+        <entry key="..\:/Kuliah/Semester 4/06. Rekayasa Perangkat Lunak/Praktikum (1)/Project RPL/Dramkos/Dramkos/app/src/main/res/layout/fragment_tambahkos.xml" value="0.11041666666666666" />
+        <entry key="..\:/Kuliah/Semester 4/06. Rekayasa Perangkat Lunak/Praktikum (1)/Project RPL/Dramkos/Dramkos/app/src/main/res/layout/item_home_produk_kos.xml" value="0.536" />
+        <entry key="..\:/Kuliah/Semester 4/06. Rekayasa Perangkat Lunak/Praktikum (1)/Project RPL/Dramkos/Dramkos/app/src/main/res/layout/item_profil_pengaturan.xml" value="0.13179347826086957" />
+        <entry key="..\:/Kuliah/Semester 4/06. Rekayasa Perangkat Lunak/Praktikum (1)/Project RPL/Dramkos/Dramkos/app/src/main/res/layout/item_rating_komentar.xml" value="0.13179347826086957" />
+        <entry key="..\:/Kuliah/Semester 4/06. Rekayasa Perangkat Lunak/Praktikum (1)/Project RPL/Dramkos/Dramkos/app/src/main/res/layout/tambah_kos.xml" value="0.10989583333333333" />
+        <entry key="..\:/Kuliah/Semester 4/06. Rekayasa Perangkat Lunak/Praktikum (1)/Project RPL/Dramkos/Dramkos/app/src/main/res/layout/tampilan_kos.xml" value="0.10989583333333333" />
+        <entry key="..\:/Kuliah/Semester 4/06. Rekayasa Perangkat Lunak/Praktikum (1)/Project RPL/Dramkos/Dramkos/app/src/main/res/menu/bottom_nav_menu.xml" value="0.10989583333333333" />
+        <entry key="..\:/Kuliah/Semester 4/06. Rekayasa Perangkat Lunak/Praktikum (1)/Project RPL/Dramkos/Dramkos/app/src/main/res/menu/bottom_nav_menu2.xml" value="0.1" />
         <entry key="..\:/Users/ACER/Documents/GitHub/Dramkos/app/src/main/res/layout/activity_login.xml" value="0.10666666666666667" />
         <entry key="..\:/Users/ACER/Documents/GitHub/Dramkos/app/src/main/res/layout/activity_navigation.xml" value="0.1" />
         <entry key="..\:/Users/ACER/Documents/GitHub/Dramkos/app/src/main/res/layout/activity_register.xml" value="0.16666666666666666" />
@@ -34,5 +73,12 @@
   </component>
   <component name="ProjectType">
     <option name="id" value="Android" />
+  </component>
+  <component name="VisualizationToolProject">
+    <option name="state">
+      <ProjectState>
+        <option name="scale" value="0.10400000000000001" />
+      </ProjectState>
+    </option>
   </component>
 </project>
