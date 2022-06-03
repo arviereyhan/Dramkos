@@ -151,7 +151,7 @@
             android:layout_height="match_parent"
             android:orientation="vertical"
             app:layoutManager="androidx.recyclerview.widget.LinearLayoutManager"
-            tools:itemCount="6"
+            tools:itemCount="1"
             tools:listitem="@layout/item_home_produk_kos" />
 
     </androidx.core.widget.NestedScrollView>

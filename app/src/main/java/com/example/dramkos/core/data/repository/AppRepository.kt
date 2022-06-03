@@ -1,10 +1,12 @@
 package com.example.dramkos.core.data.repository
 
 import com.example.dramkos.core.data.source.local.LocalDataSource
+import com.example.dramkos.core.data.source.model.Kos
 import com.example.dramkos.core.data.source.remote.RemoteDataSource
 import com.example.dramkos.core.data.source.remote.network.Resource
 import com.example.dramkos.core.data.source.remote.request.LoginRequest
 import com.example.dramkos.core.data.source.remote.request.RegisterRequest
+import com.example.dramkos.core.data.source.remote.request.UpdateProfileRequest
 import com.example.dramkos.util.Prefs
 import com.inyongtisto.myhelper.extension.getErrorBody
 import com.inyongtisto.myhelper.extension.logs
@@ -44,7 +46,7 @@ class AppRepository(val local: LocalDataSource, val remote: RemoteDataSource) {
                     Prefs.isLogin = true
                     val body = it.body()
                     val user = body?.data
-                    Prefs.setUser(user)
+                    Prefs.setAdmin(user)
                     emit(Resource.success(user))
                     logs("succes:" + body.toString())
                 } else {
@@ -88,7 +90,7 @@ class AppRepository(val local: LocalDataSource, val remote: RemoteDataSource) {
                     Prefs.isLogin = true
                     val body = it.body()
                     val user = body?.data
-                    Prefs.setUser(user)
+                    Prefs.setAdmin(user)
                     emit(Resource.success(user))
                     logs("succes:" + body.toString())
                 } else {
@@ -101,4 +103,41 @@ class AppRepository(val local: LocalDataSource, val remote: RemoteDataSource) {
             logs("Error:" + e.message)
         }
     }
+
+    fun getKos() = flow {
+        emit(Resource.loading(null))
+        try {
+            remote.getKos().let {
+                if (it.isSuccessful) {
+                    val body = it.body()
+                    val data = body?.data
+
+                    emit(Resource.success(data))
+                } else {
+                    emit(Resource.error(it.getErrorBody()?.message ?: "Default error dongs", null))
+                }
+            }
+        } catch (e: Exception) {
+            emit(Resource.error(e.message ?: "Terjadi Kesalahan", null))
+        }
+    }
+
+    fun createKos(data: Kos) = flow {
+        emit(Resource.loading(null))
+        try {
+            remote.createKos(data).let {
+                if (it.isSuccessful) {
+                    val body = it.body()?.data
+                    emit(Resource.success(body))
+                } else {
+                    emit(Resource.error(it.getErrorBody()?.message ?: "Default error dongs", null))
+                }
+            }
+        } catch (e: Exception) {
+            emit(Resource.error(e.message ?: "Terjadi Kesalahan", null))
+        }
+    }
+
+
+
 }
