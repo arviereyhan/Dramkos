@@ -31,6 +31,9 @@ class RegisterAdminActivity : AppCompatActivity() {
         binding.btnUser.setOnClickListener {
             intentActivity(RegisterUserActivity::class.java)
         }
+        binding.btnMasuk.setOnClickListener {
+            intentActivity(LoginAdminActivity::class.java)
+        }
         binding.btnDaftar.setOnClickListener {
             register()
         }
@@ -56,7 +59,7 @@ class RegisterAdminActivity : AppCompatActivity() {
             when (it.state) {
                 State.SUCCESS -> {
 //                    dismisLoading()
-                    showToast("Selamat datang " + it.data?.nama)
+                    showToast("Register Sukses\nSilahkan Login")
                     pushActivity(LoginAdminActivity::class.java)
                 }
                 State.ERROR -> {

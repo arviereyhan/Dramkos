@@ -45,11 +45,11 @@
             android:paddingVertical="5dp">
 
             <TextView
-                android:id="@+id/tv_name"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:lineHeight="30sp"
-                android:text="Nama Pengguna"
+                android:text="Profile"
+                android:textStyle="bold"
                 android:textColor="@color/colorPrimary_400"
                 android:textSize="25sp" />
         </LinearLayout>
@@ -71,17 +71,18 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:background="@color/white"
-                android:textColor="@color/colorPrimary_400"
                 android:paddingStart="0dp"
-                android:text="Username" />
+                android:text="Username"
+                android:textColor="@color/colorPrimary_400" />
 
             <TextView
+                android:id="@+id/tv_name"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:background="@color/white"
-                android:textColor="@color/black"
                 android:paddingStart="0dp"
-                android:text="aini" />
+                android:text="aini"
+                android:textColor="@color/black" />
 
         </com.google.android.material.textfield.TextInputLayout>
 
@@ -94,53 +95,42 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:background="@color/white"
-                android:textColor="@color/colorPrimary_400"
                 android:paddingStart="0dp"
-                android:text="Email" />
+                android:text="Email"
+                android:textColor="@color/colorPrimary_400" />
 
             <TextView
+                android:id="@+id/tv_email"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:background="@color/white"
-                android:textColor="@color/black"
                 android:paddingStart="0dp"
-                android:text="aininura" />
+                android:text="aininura"
+                android:textColor="@color/black" />
         </com.google.android.material.textfield.TextInputLayout>
 
         <com.google.android.material.textfield.TextInputLayout
             android:layout_width="match_parent"
-            android:layout_marginTop="20dp"
-            android:layout_height="wrap_content"/>
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp" />
 
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:textColor="@color/colorPrimary_400"
-            android:text="Pengaturan"/>
+            android:text="Pengaturan"
+            android:textColor="@color/colorPrimary_400" />
 
-        <RelativeLayout
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content">
-
-            <androidx.constraintlayout.widget.ConstraintLayout
-                android:id="@+id/btn_keluar"
-                android:layout_width="match_parent"
-                android:layout_height="35dp"
-                android:layout_marginTop="10dp"
-                android:layout_marginEnd="250dp"
-                android:background="@drawable/rectangle" />
-
-            <TextView
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:textColor="@color/colorPrimary_400"
-                android:text="Keluar"
-                android:layout_marginStart="40dp"
-                android:layout_marginTop="17dp"
-                android:layout_marginEnd="250dp"/>
-
-        </RelativeLayout>
-
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/btnLogout"
+            android:layout_width="@dimen/_70sdp"
+            android:layout_height="@dimen/_40sdp"
+            android:layout_marginTop="@dimen/_15sdp"
+            android:layout_marginEnd="@dimen/_30sdp"
+            android:text="Logout"
+            android:textColor="@color/white"
+            android:textAllCaps="false"
+            android:textSize="15dp"
+            android:backgroundTint="@color/red_400"/>
 
 
     </LinearLayout>

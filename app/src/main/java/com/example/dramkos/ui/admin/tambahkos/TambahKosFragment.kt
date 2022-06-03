@@ -7,7 +7,10 @@ import android.view.ViewGroup
 import androidx.fragment.app.Fragment
 import androidx.lifecycle.ViewModelProvider
 import com.example.dramkos.databinding.FragmentTambahkosBinding
+import com.example.dramkos.ui.user.home.HomeFragment
 import com.example.dramkos.ui.user.rating.RatingViewModel
+import com.inyongtisto.myhelper.extension.intentActivity
+import com.inyongtisto.myhelper.extension.pushActivity
 
 class TambahKosFragment : Fragment() {
     private var _binding: FragmentTambahkosBinding ? = null
@@ -27,6 +30,12 @@ class TambahKosFragment : Fragment() {
         val root: View = binding.root
 
         return root
+    }
+
+    private fun mainButton() {
+        binding.back.setOnClickListener {
+            context?.intentActivity(HomeFragment::class.java)
+        }
     }
 
     override fun onDestroyView() {

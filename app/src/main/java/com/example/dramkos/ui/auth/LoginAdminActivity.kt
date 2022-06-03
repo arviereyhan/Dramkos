@@ -36,7 +36,7 @@ class LoginAdminActivity : AppCompatActivity() {
         }
 
         binding.btnDaftar.setOnClickListener {
-            intentActivity(LoginAdminActivity::class.java)
+            intentActivity(RegisterAdminActivity::class.java)
         }
     }
 

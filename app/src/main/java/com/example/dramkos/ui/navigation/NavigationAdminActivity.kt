@@ -1,12 +1,16 @@
 package com.example.dramkos.ui.navigation
 
+import android.content.Intent
 import android.os.Bundle
 import android.util.Log
 import androidx.appcompat.app.AppCompatActivity
 import androidx.navigation.fragment.NavHostFragment
 import androidx.navigation.ui.setupWithNavController
 import com.example.dramkos.R
+import com.example.dramkos.core.data.source.remote.network.State
 import com.example.dramkos.databinding.ActivityNavigationAdminBinding
+import com.example.dramkos.ui.admin.tambahkos.TambahKosActivity
+import com.example.dramkos.util.Constants
 import com.google.android.material.bottomnavigation.BottomNavigationView
 import org.koin.androidx.viewmodel.ext.android.viewModel
 
@@ -20,7 +24,7 @@ class NavigationAdminActivity : AppCompatActivity() {
 
         binding = ActivityNavigationAdminBinding.inflate(layoutInflater)
         setContentView(binding.root)
-
+        getData()
         setupNav()
 
     }
@@ -32,11 +36,26 @@ class NavigationAdminActivity : AppCompatActivity() {
 
         navView.setupWithNavController(navController)
         navView.setOnItemSelectedListener {
+            getData()
+            if (it.itemId == R.id.navigation_tambahkos) {
+                startActivity(Intent(this, TambahKosActivity::class.java))
+                Log.d("TAG", "belum login, pindah ke maenu login")
+                return@setOnItemSelectedListener false
 
+            } else {
                 navController.navigate(it.itemId)
                 Log.d("TAG", "onCreate: yg lain" + it.itemId)
-
+            }
             return@setOnItemSelectedListener true
+        }
+    }
+    fun getData() {
+        viewModel.get().observe(this) {
+            when (it.state) {
+                State.SUCCESS -> {
+                    Constants.dataaa = it.data ?: emptyList()
+                }
+            }
         }
     }
 
