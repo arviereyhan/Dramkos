@@ -1,5 +1,6 @@
 package com.example.dramkos.ui.navigation
 
+import android.content.Intent
 import android.os.Bundle
 import android.util.Log
 import androidx.appcompat.app.AppCompatActivity
@@ -7,6 +8,7 @@ import androidx.navigation.fragment.NavHostFragment
 import androidx.navigation.ui.setupWithNavController
 import com.example.dramkos.R
 import com.example.dramkos.databinding.ActivityNavigationAdminBinding
+import com.example.dramkos.ui.admin.tambahkos.TambahKosActivity
 import com.google.android.material.bottomnavigation.BottomNavigationView
 import org.koin.androidx.viewmodel.ext.android.viewModel
 
@@ -32,13 +34,18 @@ class NavigationAdminActivity : AppCompatActivity() {
 
         navView.setupWithNavController(navController)
         navView.setOnItemSelectedListener {
+            if (it.itemId == R.id.navigation_tambahkos) {
+                    startActivity(Intent(this, TambahKosActivity::class.java))
+                    Log.d("TAG", "belum login, pindah ke maenu login")
+                    return@setOnItemSelectedListener false
 
+            } else {
                 navController.navigate(it.itemId)
                 Log.d("TAG", "onCreate: yg lain" + it.itemId)
+            }
 
             return@setOnItemSelectedListener true
-        }
-    }
+    }}
 
     override fun onBackPressed() {
         finish()

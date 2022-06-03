@@ -32,7 +32,7 @@ class DetailKosActivity : MyActivity() {
         kos = extra.toModel(Kos::class.java) ?: Kos()
 
         binding.apply {
-            fotoKos.setImageResource(kos.image)
+            fotoKos.setImageResource(kos.image!!)
             namaJarak.text = kos.name + "-" + kos.jarak + "km"
             daerahKos.text = kos.daerah
             kisaranHarga.text = kos.harga.toString()

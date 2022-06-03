@@ -73,7 +73,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:background="@drawable/kotak"
-                android:hint="Nama Kos"/>
+                android:hint="Daerah Kos"/>
 
             <EditText
                 android:id="@+id/colom_jarak"
@@ -104,21 +104,26 @@
                 android:layout_marginStart="10dp"
                 android:orientation="horizontal">
 
-                <ImageView
-                    android:layout_width="40dp"
-                    android:layout_height="40dp"
-                    android:src="@drawable/ic_ac" />
-
-                <ImageView
-                    android:layout_width="40dp"
-                    android:layout_height="40dp"
-                    android:layout_marginStart="15dp"
-                    android:src="@drawable/ic_wifi" />
-                <ImageView
-                    android:layout_width="50dp"
-                    android:layout_height="40dp"
-                    android:layout_marginStart="15dp"
-                    android:src="@drawable/ic_dapur" />
+                <CheckBox
+                    android:id="@+id/fasil_ac"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="AC"/>
+                <CheckBox
+                    android:id="@+id/fasil_wifi"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Wifi"/>
+                <CheckBox
+                    android:id="@+id/fasil_kamarmandi"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Kamar mandi"/>
+                <CheckBox
+                    android:id="@+id/fasil_kitchen"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Kitchen set"/>
             </LinearLayout>
 
             <LinearLayout
@@ -146,19 +151,7 @@
                     android:layout_width="150dp"
                     android:layout_height="60dp"
                     android:background="@drawable/ic_colomharga"/>
-                <ImageView
-                    android:layout_width="30dp"
-                    android:layout_marginTop="30dp"
-                    android:layout_height="4dp"
-                    android:layout_marginStart="15dp"
-                    android:background="@drawable/ic_strip"/>
 
-                <EditText
-                    android:id="@+id/kisaran_harga1"
-                    android:layout_width="150dp"
-                    android:layout_height="60dp"
-                    android:layout_marginStart="20dp"
-                    android:background="@drawable/ic_colomharga"/>
             </LinearLayout>
 
             <ImageButton
@@ -166,6 +159,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="20dp"
+                android:layout_marginBottom="30dp"
                 android:background="@drawable/ic_colom_tambahkos">
             </ImageButton>
         </LinearLayout>
