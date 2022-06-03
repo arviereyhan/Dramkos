@@ -64,6 +64,19 @@
         <entry key="..\:/Users/ACER/Documents/GitHub/Dramkos/app/src/main/res/layout/fragment_home.xml" value="0.17552083333333332" />
         <entry key="..\:/Users/ACER/Documents/GitHub/Dramkos/app/src/main/res/layout/fragment_rating.xml" value="0.17552083333333332" />
         <entry key="..\:/Users/ACER/Documents/GitHub/Dramkos/app/src/main/res/menu/bottom_nav_menu.xml" value="0.16666666666666666" />
+        <entry key="app/src/main/res/layout/activity_navigation_user.xml" value="0.1" />
+        <entry key="app/src/main/res/layout/edit_kos.xml" value="0.19610507246376813" />
+        <entry key="app/src/main/res/layout/fragment_home_admin.xml" value="0.1111111111111111" />
+        <entry key="app/src/main/res/layout/fragment_home_user.xml" value="0.1111111111111111" />
+        <entry key="app/src/main/res/layout/fragment_profile.xml" value="0.15096251266464034" />
+        <entry key="app/src/main/res/layout/fragment_profile_user.xml" value="0.19610507246376813" />
+        <entry key="app/src/main/res/layout/fragment_tambahkos.xml" value="0.1111111111111111" />
+        <entry key="app/src/main/res/layout/item_home_produk_kos.xml" value="0.3171128262381665" />
+        <entry key="app/src/main/res/layout/item_profil_pengaturan.xml" value="0.11727456940222898" />
+        <entry key="app/src/main/res/layout/item_profil_pengaturan_admin.xml" value="0.19610507246376813" />
+        <entry key="app/src/main/res/layout/tampilan_kos.xml" value="0.19610507246376813" />
+        <entry key="app/src/main/res/layout/tampilan_kos_admint.xml" value="0.19610507246376813" />
+        <entry key="app/src/main/res/menu/bottom_nav_menu.xml" value="0.1" />
       </map>
     </option>
   </component>

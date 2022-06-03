@@ -9,38 +9,12 @@
     android:orientation="vertical"
     tools:context=".ui.admin.home.HomeFragment" >
 
-    <LinearLayout
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:orientation="vertical"
-        android:layout_marginTop="@dimen/_10sdp"
-        android:layout_marginBottom="@dimen/_10sdp">
-
-        <TextView
-            android:id="@+id/text_home"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_marginBottom="@dimen/_5sdp"
-            android:text="Admin"
-            android:textSize="@dimen/_15sdp"
-            android:textAlignment="center"
-            android:textColor="@color/colorPrimary_700"
-            android:textStyle="bold" />
-
-        <TextView
-            android:layout_width="match_parent"
-            android:layout_height="match_parent"
-            android:text="Kos mana yang cocok untukmu"
-            android:textAlignment="center"
-            android:textSize="@dimen/_13sdp"
-            android:textColor="@color/colorPrimary_700" />
-
-    </LinearLayout>
 
     <com.google.android.material.card.MaterialCardView
 
         android:layout_width="match_parent"
-        android:layout_height="wrap_content">
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp">
 
         <RelativeLayout
             android:layout_width="match_parent"
@@ -60,90 +34,48 @@
 
     </com.google.android.material.card.MaterialCardView>
 
-    <LinearLayout
-        android:layout_width="match_parent"
+    <TextView
+        android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:orientation="horizontal"
-        android:layout_marginStart="15dp"
-        android:layout_marginEnd="15dp"
-        android:layout_marginTop="@dimen/_10sdp">
-
-        <androidx.constraintlayout.widget.ConstraintLayout
-            android:id="@+id/filter"
-            android:layout_width="1dp"
-            android:layout_height="40dp"
-            android:layout_marginStart="15dp"
-            android:layout_marginEnd="10dp"
-            android:layout_weight="1"
-            android:background="@drawable/rectangle"
-            android:paddingHorizontal="13dp"
-            android:paddingVertical="7dp">
-
-            <androidx.appcompat.widget.AppCompatImageView
-                android:src="@drawable/ic_baseline_filter_alt_24"
-                android:id="@+id/filterIcon"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                app:layout_constraintBottom_toBottomOf="parent"
-                app:layout_constraintStart_toStartOf="parent"
-                app:layout_constraintTop_toTopOf="parent"/>
-
-            <TextView
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:text="Filter"
-                android:textAlignment="center"
-                android:textColor="@color/colorPrimary_400"
-                android:textSize="14sp"
-                android:textStyle="bold"
-                app:layout_constraintTop_toTopOf="parent"
-                app:layout_constraintBottom_toBottomOf="parent"/>
-
-        </androidx.constraintlayout.widget.ConstraintLayout>
-
-        <androidx.constraintlayout.widget.ConstraintLayout
-            android:id="@+id/sort"
-            android:layout_width="1dp"
-            android:layout_height="40dp"
-            android:layout_marginStart="10dp"
-            android:layout_marginEnd="15dp"
-            android:layout_weight="1"
-            android:background="@drawable/rectangle"
-            android:paddingHorizontal="13dp"
-            android:paddingVertical="7dp">
-
-            <androidx.appcompat.widget.AppCompatImageView
-                android:id="@+id/sortIcon"
-                android:layout_width="40dp"
-                android:layout_height="wrap_content"
-                android:src="@drawable/ic_baseline_sort_24"
-                app:layout_constraintBottom_toBottomOf="parent"
-                app:layout_constraintStart_toStartOf="parent"
-                app:layout_constraintTop_toTopOf="parent" />
-
-            <TextView
-                android:id="@+id/tv_member_status"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:text="Sort"
-                android:textAlignment="center"
-                android:textColor="@color/colorPrimary_400"
-                android:textSize="16sp"
-                android:textStyle="bold"
-                app:layout_constraintStart_toEndOf="@+id/sortIcon"
-                app:layout_constraintBottom_toBottomOf="parent"
-                app:layout_constraintTop_toTopOf="parent" />
-
-        </androidx.constraintlayout.widget.ConstraintLayout>
-
-    </LinearLayout>
+        android:layout_marginStart="10dp"
+        android:fontFamily="@font/roboto"
+        android:text="Daftar Kosmu"
+        android:textSize="32sp" />
 
     <androidx.core.widget.NestedScrollView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginHorizontal="@dimen/_10sdp"
-        android:layout_marginTop="@dimen/_10sdp"
+        android:layout_marginBottom="@dimen/_10sdp">
+
+
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/daftar_kosmu"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            app:layoutManager="androidx.recyclerview.widget.LinearLayoutManager"
+            tools:itemCount="2"
+            tools:listitem="@layout/item_home_produk_kos" />
+
+    </androidx.core.widget.NestedScrollView>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="10dp"
+        android:fontFamily="@font/roboto"
+        android:text="Kos Lainnya"
+        android:textSize="32sp" />
+
+    <androidx.core.widget.NestedScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="@dimen/_10sdp"
         android:layout_marginBottom="@dimen/_40sdp">
+
+
 
         <androidx.recyclerview.widget.RecyclerView
             android:id="@+id/rv_product_kos"
@@ -151,9 +83,10 @@
             android:layout_height="match_parent"
             android:orientation="vertical"
             app:layoutManager="androidx.recyclerview.widget.LinearLayoutManager"
-            tools:itemCount="6"
+            tools:itemCount="2"
             tools:listitem="@layout/item_home_produk_kos" />
 
     </androidx.core.widget.NestedScrollView>
+
 
 </LinearLayout>

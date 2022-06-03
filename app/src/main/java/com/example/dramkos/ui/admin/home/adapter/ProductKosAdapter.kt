@@ -17,7 +17,7 @@ class ProductKosAdapter : RecyclerView.Adapter<ProductKosAdapter.ViewHolder>() {
         fun bind(item: Kos, position: Int) {
             itemBinding.apply {
                 namaKos.text = item.name + " - " + item.jarak + "km"
-                alamatKos.text = item.alamat
+                daerahKos.text = item.daerah
                 imageKos.setImageResource(item.image)
                 ratingKos.text = "" + item.rating
                 bookmarkKos.setImageResource(R.drawable.ic_baseline_bookmark_border_24)

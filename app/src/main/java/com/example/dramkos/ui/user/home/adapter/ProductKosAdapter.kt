@@ -7,6 +7,9 @@ import androidx.recyclerview.widget.RecyclerView
 import com.example.dramkos.R
 import com.example.dramkos.core.data.source.model.Kos
 import com.example.dramkos.databinding.ItemHomeProdukKosBinding
+import com.example.dramkos.ui.user.detailkos.DetailKosActivity
+import com.inyongtisto.myhelper.extension.intentActivity
+import com.inyongtisto.myhelper.extension.toJson
 
 class ProductKosAdapter : RecyclerView.Adapter<ProductKosAdapter.ViewHolder>() {
 
@@ -17,10 +20,18 @@ class ProductKosAdapter : RecyclerView.Adapter<ProductKosAdapter.ViewHolder>() {
         fun bind(item: Kos, position: Int) {
             itemBinding.apply {
                 namaKos.text = item.name + " - " + item.jarak + "km"
-                alamatKos.text = item.alamat
+                daerahKos.text = item.daerah
                 imageKos.setImageResource(item.image)
                 ratingKos.text = "" + item.rating
                 bookmarkKos.setImageResource(R.drawable.ic_baseline_bookmark_border_24)
+
+                val context = root.context
+                detailKos.setOnClickListener{
+                    context.intentActivity(
+                        DetailKosActivity::class.java,
+                        item.toJson()
+                    )
+                }
             }
         }
     }

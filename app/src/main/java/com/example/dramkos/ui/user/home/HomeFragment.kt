@@ -7,11 +7,12 @@ import android.view.ViewGroup
 import androidx.fragment.app.Fragment
 import androidx.lifecycle.ViewModelProvider
 import com.example.dramkos.databinding.FragmentHomeAdminBinding
+import com.example.dramkos.databinding.FragmentHomeUserBinding
 import com.example.dramkos.ui.user.home.adapter.ProductKosAdapter
 
 class HomeFragment : Fragment() {
 
-    private var _binding: FragmentHomeAdminBinding? = null
+    private var _binding: FragmentHomeUserBinding? = null
     private val binding get() = _binding!!
     private lateinit var viewModel: HomeViewModel
     private val adapterProductKos = ProductKosAdapter()
@@ -23,7 +24,7 @@ class HomeFragment : Fragment() {
     ): View {
         viewModel = ViewModelProvider(this).get(HomeViewModel::class.java)
 
-        _binding = FragmentHomeAdminBinding.inflate(inflater, container, false)
+        _binding = FragmentHomeUserBinding.inflate(inflater, container, false)
         val root: View = binding.root
 
         setupAdapter()

@@ -13,6 +13,7 @@
         android:layout_marginBottom="@dimen/_10sdp">
 
         <LinearLayout
+            android:id="@+id/detail_kos"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:background="@color/colorPrimary_100"
@@ -44,7 +45,7 @@
                     android:textSize="15sp" />
 
                 <TextView
-                    android:id="@+id/alamat_kos"
+                    android:id="@+id/daerah_kos"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_marginVertical="3dp"

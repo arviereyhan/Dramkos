@@ -5,6 +5,8 @@ data class Kos(
     val name: String,
     val image: Int,
     val alamat: String,
+    val daerah: String,
+    val harga: Int,
     val jarak: Double,
     val rating: Double,
 )
