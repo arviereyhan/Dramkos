@@ -7,6 +7,8 @@
         <entry key="..\:/Kuliah/Semester 4/06. Rekayasa Perangkat Lunak/Praktikum (1)/Project RPL/Dramkos/Dramkos/app/src/main/res/drawable-v24/ic_baseline_ac_unit_24.xml" value="0.1" />
         <entry key="..\:/Kuliah/Semester 4/06. Rekayasa Perangkat Lunak/Praktikum (1)/Project RPL/Dramkos/Dramkos/app/src/main/res/drawable-v24/ic_baseline_arrow_back_24.xml" value="0.1" />
         <entry key="..\:/Kuliah/Semester 4/06. Rekayasa Perangkat Lunak/Praktikum (1)/Project RPL/Dramkos/Dramkos/app/src/main/res/drawable-v24/ic_baseline_settings_24.xml" value="0.1" />
+        <entry key="..\:/Kuliah/Semester 4/06. Rekayasa Perangkat Lunak/Praktikum (1)/Project RPL/Dramkos/Dramkos/app/src/main/res/drawable-v24/ic_battom_hapus.xml" value="0.1215" />
+        <entry key="..\:/Kuliah/Semester 4/06. Rekayasa Perangkat Lunak/Praktikum (1)/Project RPL/Dramkos/Dramkos/app/src/main/res/drawable-v24/ic_buttom_edit.xml" value="0.1215" />
         <entry key="..\:/Kuliah/Semester 4/06. Rekayasa Perangkat Lunak/Praktikum (1)/Project RPL/Dramkos/Dramkos/app/src/main/res/drawable-v24/ic_colomharga.xml" value="0.1" />
         <entry key="..\:/Kuliah/Semester 4/06. Rekayasa Perangkat Lunak/Praktikum (1)/Project RPL/Dramkos/Dramkos/app/src/main/res/drawable-v24/ic_gambar_kos.xml" value="0.106" />
         <entry key="..\:/Kuliah/Semester 4/06. Rekayasa Perangkat Lunak/Praktikum (1)/Project RPL/Dramkos/Dramkos/app/src/main/res/drawable-v24/ic_latar_kos.xml" value="0.106" />
@@ -45,11 +47,13 @@
         <entry key="..\:/Kuliah/Semester 4/06. Rekayasa Perangkat Lunak/Praktikum (1)/Project RPL/Dramkos/Dramkos/app/src/main/res/layout/fragment_profile_user.xml" value="0.2" />
         <entry key="..\:/Kuliah/Semester 4/06. Rekayasa Perangkat Lunak/Praktikum (1)/Project RPL/Dramkos/Dramkos/app/src/main/res/layout/fragment_rating.xml" value="0.1" />
         <entry key="..\:/Kuliah/Semester 4/06. Rekayasa Perangkat Lunak/Praktikum (1)/Project RPL/Dramkos/Dramkos/app/src/main/res/layout/fragment_tambahkos.xml" value="0.11041666666666666" />
-        <entry key="..\:/Kuliah/Semester 4/06. Rekayasa Perangkat Lunak/Praktikum (1)/Project RPL/Dramkos/Dramkos/app/src/main/res/layout/item_home_produk_kos.xml" value="0.536" />
+        <entry key="..\:/Kuliah/Semester 4/06. Rekayasa Perangkat Lunak/Praktikum (1)/Project RPL/Dramkos/Dramkos/app/src/main/res/layout/ic_buttom_edit.xml" value="0.11041666666666666" />
+        <entry key="..\:/Kuliah/Semester 4/06. Rekayasa Perangkat Lunak/Praktikum (1)/Project RPL/Dramkos/Dramkos/app/src/main/res/layout/item_home_produk_kos.xml" value="0.264" />
         <entry key="..\:/Kuliah/Semester 4/06. Rekayasa Perangkat Lunak/Praktikum (1)/Project RPL/Dramkos/Dramkos/app/src/main/res/layout/item_profil_pengaturan.xml" value="0.13179347826086957" />
         <entry key="..\:/Kuliah/Semester 4/06. Rekayasa Perangkat Lunak/Praktikum (1)/Project RPL/Dramkos/Dramkos/app/src/main/res/layout/item_rating_komentar.xml" value="0.13179347826086957" />
         <entry key="..\:/Kuliah/Semester 4/06. Rekayasa Perangkat Lunak/Praktikum (1)/Project RPL/Dramkos/Dramkos/app/src/main/res/layout/tambah_kos.xml" value="0.10989583333333333" />
         <entry key="..\:/Kuliah/Semester 4/06. Rekayasa Perangkat Lunak/Praktikum (1)/Project RPL/Dramkos/Dramkos/app/src/main/res/layout/tampilan_kos.xml" value="0.10989583333333333" />
+        <entry key="..\:/Kuliah/Semester 4/06. Rekayasa Perangkat Lunak/Praktikum (1)/Project RPL/Dramkos/Dramkos/app/src/main/res/layout/tampilan_kos_admin.xml" value="0.264" />
         <entry key="..\:/Kuliah/Semester 4/06. Rekayasa Perangkat Lunak/Praktikum (1)/Project RPL/Dramkos/Dramkos/app/src/main/res/menu/bottom_nav_menu.xml" value="0.10989583333333333" />
         <entry key="..\:/Kuliah/Semester 4/06. Rekayasa Perangkat Lunak/Praktikum (1)/Project RPL/Dramkos/Dramkos/app/src/main/res/menu/bottom_nav_menu2.xml" value="0.1" />
         <entry key="..\:/Users/ACER/Documents/GitHub/Dramkos/app/src/main/res/layout/activity_login.xml" value="0.10666666666666667" />

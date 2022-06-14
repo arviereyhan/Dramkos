@@ -7,6 +7,7 @@ import com.example.dramkos.core.data.source.remote.network.State
 import com.example.dramkos.databinding.FragmentTambahkosBinding
 import com.example.dramkos.ui.auth.AuthViewModel
 import com.example.dramkos.ui.navigation.NavigationAdminActivity
+import com.example.dramkos.util.Constants
 import com.example.dramkos.util.getAdminId
 import com.example.dramkos.util.getKosId
 import com.inyongtisto.myhelper.extension.*
@@ -43,13 +44,23 @@ class TambahKosActivity : AppCompatActivity() {
         return true
     }
 
+    fun getData() {
+        viewModel.get().observe(this) {
+            when (it.state) {
+                State.SUCCESS -> {
+                    Constants.dataaa = it.data ?: emptyList()
+                }
+            }
+        }
+    }
+
     private fun simpan() {
 
         val reqData1 = Kos(
             id = getKosId(),
             adminID = getAdminId(),
             namaKos = binding.colomTextKos.getString(),
-            alamat = binding.colomAlamat.getString(),
+            alamat = binding.colomDaerah.getString(),
             fasilitas = 1,
             harga = binding.kisaranHarga.getString().toInt(),
         )
@@ -78,6 +89,7 @@ class TambahKosActivity : AppCompatActivity() {
                 State.SUCCESS -> {
                     dismisLoading()
                     showToast("Tambah Kos Sukses")
+                    getData()
                     pushActivity(NavigationAdminActivity::class.java)
                 }
                 State.ERROR -> {

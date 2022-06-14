@@ -39,5 +39,16 @@ interface ApiService {
         @Body data: Kos
     ): Response<BaseSingelResponse<Kos>>
 
+    @PUT("kos/{id}")
+    suspend fun updateKos(
+        @Path("id") id: Int? = null,
+        @Body data: Kos
+    ): Response<BaseSingelResponse<Kos>>
+
+    @DELETE("kos/{id}")
+    suspend fun deleteKos(
+        @Path("id") id: Int? = null,
+    ): Response<BaseSingelResponse<Kos>>
+
 
 }
