@@ -159,14 +159,15 @@
 
             </LinearLayout>
 
-            <ImageButton
+            <com.google.android.material.button.MaterialButton
                 android:id="@+id/tambah_kos"
                 android:layout_width="match_parent"
-                android:layout_height="wrap_content"
+                android:layout_height="@dimen/_50sdp"
                 android:layout_marginTop="20dp"
-                android:layout_marginBottom="@dimen/_30sdp"
-                android:background="@drawable/ic_colom_tambahkos">
-            </ImageButton>
+                android:text="Simpan"
+                android:textColor="@color/white"
+                android:layout_marginBottom="@dimen/_30sdp">
+            </com.google.android.material.button.MaterialButton>
         </LinearLayout>
 
     </ScrollView>

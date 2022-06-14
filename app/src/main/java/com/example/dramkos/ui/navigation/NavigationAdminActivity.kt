@@ -12,6 +12,7 @@ import com.example.dramkos.databinding.ActivityNavigationAdminBinding
 import com.example.dramkos.ui.admin.tambahkos.TambahKosActivity
 import com.example.dramkos.util.Constants
 import com.google.android.material.bottomnavigation.BottomNavigationView
+import com.inyongtisto.myhelper.extension.intentActivity
 import org.koin.androidx.viewmodel.ext.android.viewModel
 
 class NavigationAdminActivity : AppCompatActivity() {
@@ -38,7 +39,7 @@ class NavigationAdminActivity : AppCompatActivity() {
         navView.setOnItemSelectedListener {
             getData()
             if (it.itemId == R.id.navigation_tambahkos) {
-                startActivity(Intent(this, TambahKosActivity::class.java))
+                intentActivity(TambahKosActivity::class.java)
                 Log.d("TAG", "belum login, pindah ke maenu login")
                 return@setOnItemSelectedListener false
 

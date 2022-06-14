@@ -1,6 +1,7 @@
 package com.example.dramkos.ui.user.detailkos
 
 import android.os.Bundle
+import android.util.Log
 import com.example.dramkos.core.data.source.model.Kos
 import com.example.dramkos.databinding.TampilanKosBinding
 import com.example.dramkos.ui.base.MyActivity
@@ -16,7 +17,7 @@ class DetailKosActivity : MyActivity() {
         super.onCreate(savedInstanceState)
         binding = TampilanKosBinding.inflate(layoutInflater)
         setContentView(binding.root)
-
+        Log.d("TAG", "ini detail kos user")
         getExtra()
     }
 
@@ -34,7 +35,6 @@ class DetailKosActivity : MyActivity() {
             namaJarak.text = kos.namaKos
             daerahKos.text = kos.alamat
             kisaranHarga.text = kos.harga.toString()
-            alamatKos.text = kos.alamat
         }
     }
 }

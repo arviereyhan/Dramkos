@@ -17,4 +17,6 @@ class RemoteDataSource(private val api: ApiService) {
 
     suspend fun getKos() = api.getKos()
     suspend fun createKos(data: Kos) = api.createKos(data)
+    suspend fun updateKos(data: Kos) = api.updateKos(data.id, data)
+    suspend fun deleteKos(data: Kos) = api.deleteKos(data.id)
 }

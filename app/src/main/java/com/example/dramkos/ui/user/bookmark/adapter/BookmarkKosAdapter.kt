@@ -17,7 +17,7 @@ class BookmarkKosAdapter : RecyclerView.Adapter<BookmarkKosAdapter.ViewHolder>()
         fun bind(item: Kos, position: Int) {
             itemBinding.apply {
                 namaKos.text = item.namaKos
-                alamatKos.text = item.alamat
+                daerahKos.text = item.alamat
                 ratingKos.text = "" + item.rating
                 bookmarkKos.setImageResource(R.drawable.ic_baseline_bookmark_border_24)
             }

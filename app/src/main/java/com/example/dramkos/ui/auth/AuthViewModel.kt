@@ -17,4 +17,6 @@ class AuthViewModel(val repo: AppRepository) : ViewModel() {
 
     fun get() = repo.getKos().asLiveData()
     fun create(data: Kos) = repo.createKos(data).asLiveData()
+    fun update(data: Kos) = repo.updateKos(data).asLiveData()
+    fun delete(data: Kos) = repo.deleteKos(data).asLiveData()
 }
